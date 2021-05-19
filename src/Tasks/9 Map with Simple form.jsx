@@ -1,5 +1,5 @@
-//Rest and Spread form
-//Simple code of previous
+//Map
+//Simple code of previous by using arrow func
 
 import React,{useState} from 'react'
 

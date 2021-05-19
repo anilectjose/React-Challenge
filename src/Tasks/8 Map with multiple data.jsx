@@ -1,5 +1,5 @@
-//Rest and Spread form
-//Simple code of previous
+//Map
+//Used to get multiple data
 
 import React,{useState} from 'react'
 
@@ -23,9 +23,11 @@ function App() {
       <button onClick={addCount}>Add</button>
           <h1>Simple Counter: {count}</h1> 
           {
-            emp.map((abc,pkey)=>
-                <Employee key={pkey} {...abc} />
-            )
+            emp.map((obj,index)=>{ //Here  obj is object and index is a key/ primary key we can change this names
+              return(
+                <Employee key={index} name={obj.name} age={obj.age} place={obj.place} />
+              )
+            })
           }
     </div>
   );

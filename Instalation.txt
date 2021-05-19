@@ -4,3 +4,5 @@
    >>npx create-react-app <folder name> /*Must need internet*/
    >>cd <folder name>
    >>npm start
+3. Install ES7 React/Redux/GraphQL/React-Native snippets in VS Code Extension
+    Select JavaScript React from bottom by clicking JavaScript from JS file 

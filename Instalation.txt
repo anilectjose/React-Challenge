@@ -1,0 +1,6 @@
+1.Install Node.js
+2. Open terminal in VS code
+   >>node --version
+   >>npx create-react-app <folder name> /*Must need internet*/
+   >>cd <folder name>
+   >>npm start
